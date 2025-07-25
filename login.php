@@ -20,6 +20,7 @@ if (isset($_SESSION['loggedin'])) {
     header('Location: dashboard.php');
     exit;
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
